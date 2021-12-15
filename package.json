@@ -9,7 +9,6 @@
     "build": "tsc",
     "lint": "tslint -c tslint.json '{src,test}/**/*.ts' --fix",
     "prepublishOnly": "yarn build && yarn test && yarn lint",
-    "postinstall": "tsc --outDir ./build"
   },
   "keywords": [
     "ethers",
